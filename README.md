@@ -18,3 +18,8 @@ About End-to-end Data Lakehouse project built on Databricks, following the Medal
 🥇 Gold Layer
 * Dimensional Data Model (Business Transformation)
 * Ready for analysis
+
+# 🎡 Data Pipeline
+* Create Job in Databricks
+* Orchestrate the pipeline
+  
