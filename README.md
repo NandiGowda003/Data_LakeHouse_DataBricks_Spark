@@ -2,8 +2,13 @@
 About End-to-end Data Lakehouse project built on Databricks, following the Medallion Architecture . The workflows using Spark, PySpark, SQL, Delta Lake, and Unity Catalog.
 
 
+# Tools Used
+Platform : Batabricks,
+Pyspark,
+SQL,
+Catalog
 
-# 🏗 High Level Arhitecture
+# 🏗 High Level Architecture
 
 <img width="691" height="768" alt="Lakehouse_Architecture drawio" src="https://github.com/user-attachments/assets/20d319f7-b0ea-4f10-a9a0-988fdfed2ec6" />
 
