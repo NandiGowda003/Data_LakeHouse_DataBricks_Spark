@@ -1,0 +1,27 @@
+# Environment & Secrets
+.env
+*.env
+config.py
+secrets.json
+
+# Databricks tokens
+.databrickscfg
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Azure credentials
+*.pfx
+*.pem
+*.key
+
+# Data files
+*.csv
+*.parquet
