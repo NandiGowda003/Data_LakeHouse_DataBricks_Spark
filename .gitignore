@@ -1,3 +1,4 @@
+cat > .gitignore << 'EOF'
 # Environment & Secrets
 .env
 *.env
@@ -25,3 +26,4 @@ Thumbs.db
 # Data files
 *.csv
 *.parquet
+EOF
