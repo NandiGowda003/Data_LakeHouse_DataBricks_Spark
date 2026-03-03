@@ -33,6 +33,15 @@ Designed a dependency-based DAG using Databricks Workflows where Gold jobs only 
 
 
 
+# 🧪 Tests
+Validate transformation logic at each medallion layer — ensuring data quality before promotion to the next layer.
+
+  * Bronze tests: Schema validation on raw ingested data
+  * Silver tests: Null checks, deduplication, type casting correctness
+  * Gold tests: Aggregation accuracy, KPI calculation validation
+
+
+This is a key differentiator from typical projects — testing ensures the pipeline behaves correctly as source data changes.
 
 # 🚀 How to Run
 
