@@ -15,9 +15,9 @@ A production-style Data Lakehouse built on Databricks, designed and implemented 
 
 <img width="691" height="768" alt="Lakehouse_Architecture drawio" src="https://github.com/user-attachments/assets/20d319f7-b0ea-4f10-a9a0-988fdfed2ec6" />
 
-🔑 Key Design Decisions (My Own)
+# 🔑 Key Design Decisions 
 1. Medallion Layer Design
-Chose a strict 3-layer separation rather than a 2-layer approach because e-commerce data has high variability in quality — separating raw from cleaned ensures no data loss while maintaining a reliable analytics layer.
+Chose a strict 3-layer separation rather than a 2-layer approach because business oriented data has high variability in quality — separating raw from cleaned ensures no data loss while maintaining a reliable analytics layer.
 2. Unity Catalog Schema Strategy
 Designed the catalog to mirror the medallion layers (bronze/silver/gold as schemas within one catalog). This makes access control simpler — different teams can be granted access at the schema level without exposing raw data to analysts.
 3. Delta Lake Schema Design
@@ -56,4 +56,6 @@ Designed a dependency-based DAG using Databricks Workflows where Gold jobs only 
 * Unity Catalog governance — catalog/schema/table level access design
 * Thinking about downstream consumers (Power BI) when designing Gold schemas
   
-Note: While this project was inspired by course learning, the architecture design, data flow, Unity Catalog structure, and Delta Lake schema were independently designed based on real-world best practices.
+# Note: 
+  While this project was inspired by course learning, 
+Still the architecture design, data flow, Unity Catalog structure, and Delta Lake schema were independently designed based on real-world best practices.
