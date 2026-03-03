@@ -4,12 +4,12 @@ A production-style Data Lakehouse built on Databricks, designed and implemented 
 
 # Tools Used
 # Component                    Technology
-* DataProcessing       -   Apache Spark / PySpark
-* Compute & Notebooks  -  Databricks
-* Storage Format       -   Delta Lake
-* Orchestration        -  Databricks
-* WorkflowsGovernance  -   Unity Catalog
-* Language             -   Python / SQL
+* DataProcessing       -    Apache Spark / PySpark
+* Compute & Notebooks  -    Databricks
+* Storage Format       -    Delta Lake
+* Orchestration        -    Databricks Workflows
+* Governance           -    Unity Catalog
+* Language             -    Python / SQL
 
 # 🏗 High Level Architecture
 
