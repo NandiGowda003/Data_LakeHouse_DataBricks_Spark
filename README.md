@@ -49,7 +49,7 @@ Designed a dependency-based DAG using Databricks Workflows where Gold jobs only 
 
 
 
-💡 What I Learned & Applied
+# 💡 What I Learned & Applied
 
 * Designing a production-grade lakehouse from scratch, not just following steps
 * Making real architectural trade-offs (e.g., schema enforcement strategy)
